@@ -1,0 +1,14 @@
+The client sends a request to the server, and the server return response to the client, this response has 
+    information about the request..
+
+Method ---------------------------------------------------> Meaning
+GET ---------------------------------------------------> Read data
+POST ---------------------------------------------------> Insert data
+PUT/PATCH ---------------------------------------------------> Update data or insert if a new id
+DELETE ---------------------------------------------------> Delete data
+HEAD ---------------------------------------------------> like head in dataFrame
+
+POST can create the same resource multiple times, so we use PUT..
+
+
+requierments.txt
